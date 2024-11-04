@@ -1,6 +1,6 @@
 def add_three(a, b, c):
     return a+b+c
-#hi there
+
 def subtract_three(a, b, c):
     return a-b-c
 
