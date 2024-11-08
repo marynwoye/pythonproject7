@@ -12,5 +12,8 @@ def test_mymath_multiply():
 def test_mymath_divide():
     assert mymath.divide_three(8, 2, 1) == 4
 
-def test_mymath_power():
-    assert mymath.power(2, 3) == 8
+def test_mymath_square():
+    assert mymath.square(9) == 81
+
+def test_mymath_cube():
+    assert mymath.cube(5) == 125
